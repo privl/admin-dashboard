@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+img.avatar {
+    width: 2rem;
+    height: 2rem;
+}
+
+.sidebar {
+    color: #fff;
+    background-color: #0ea5e9;
+    grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.sidebar img {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.header {
+    
+}
+
+.content {
+
+}
+
